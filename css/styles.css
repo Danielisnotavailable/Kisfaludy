@@ -309,12 +309,17 @@ margin-right: 0;
 /* Rendezvények section */
 
 .card{
-padding-bottom: 3%;
+margin: 5px;
+
 }
 
 .card-body{
-  height: 100px;
+  height: 130px;
 }
+
+/* .card-text{
+  font-size: 12px;
+} */
 
 /* Galeria section */
 .item{
