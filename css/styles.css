@@ -320,9 +320,24 @@ width: 110%;
   padding-right: 5px;
 }
 
-.etlap-btn{
-  margin-top: 15px;
+/* because of the bottoms */
+
+.etlap-body-2{
+  position: relative;
+  height: 50px;
+
 }
+.etlap-btn{
+  text-align: center;
+  margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+  }
+
+
 /* Partnereink */
 
 .partner-logo {
@@ -402,6 +417,12 @@ opacity: 0.9;
 
 .list-icons{
   padding-top: 10px;
+  padding-right: 5px;
+  width: auto;
+}
+
+.fb-list-icon{
+  padding-top: 5px;
   padding-right: 5px;
   width: auto;
 }
