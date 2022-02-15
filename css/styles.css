@@ -407,7 +407,6 @@ width: 350px;
 background-color: #E8E8CC;
 opacity: 0.9;
 }
-/* color palette:#116530, #E8E8CC, #0B4619 */
 
 .list-items{
     display:flex;
@@ -420,6 +419,8 @@ opacity: 0.9;
   padding-right: 5px;
   width: auto;
 }
+
+/* A fecbook icon valamiért kilógott a sorból */
 
 .fb-list-icon{
   padding-top: 5px;
@@ -522,11 +523,6 @@ text-align: left;
 /* Responsive */
   @media (max-width: 950px)
   {
-    .navbar {
-      height: 55px;
-      width:auto;
-    }
-
     .navbar-brand {
       font-size: 1.5rem;
       text-align: left;
@@ -540,7 +536,6 @@ text-align: left;
     .navbar-collapse {
    background: #116530;
  }
-
 
 .front-image {
   padding-top: 7%;
