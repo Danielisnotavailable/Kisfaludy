@@ -77,7 +77,8 @@ h3 {
 
 .button2{
   background-color: #E8E8CC;
-  border: none;
+  border: solid 1px;
+  border-color: #116530;
   color: #0B4619;
   border-radius: 17px;
   height: 40px;
@@ -91,6 +92,7 @@ h3 {
 
 .button2:hover{
   background-color: grey;
+  border-color: grey;
   color: white;
 }
 
@@ -308,6 +310,19 @@ width: 110%;
 
 
 /*Etlap Itallap section */
+
+.etlap-body{
+  border: solid 1px;
+  border-color: #116530;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.etlap-btn{
+  margin-top: 15px;
+}
 /* Partnereink */
 
 .partner-logo {
