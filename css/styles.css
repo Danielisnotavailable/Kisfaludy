@@ -190,13 +190,27 @@ h3 {
 .navbar-brand {
   font-family: 'Imperial Script', cursive;
   font-size: 2rem;
+  text-align: left;
 }
 
 .navbar-image {
   border-radius: 90%;
   background-color: white;
   opacity: 0.7;
+}
 
+
+.english{
+  padding-top: 10px;
+display: flex;
+justify-content: flex-end;
+font-style: italic;
+font-size: 13px;
+}
+
+.english-flag {
+  width: 30px;
+  height: auto;
 }
 
 
