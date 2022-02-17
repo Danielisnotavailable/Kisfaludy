@@ -244,19 +244,29 @@ border-top-left-radius: 25px;
 margin: 15px 0;
 }
 
-.payment-img-1 {
-width: 60%;
-height: auto;
-border-radius: 25px;
-margin-left: 20%;
-}
-.payment-img-2 {
-width: 50%;
-height: auto;
-border-radius: 25px;
-margin-left: 20%;
+.payment-items{
+display:list-item;
 }
 
+.payment-img-1 {
+width: 100%;
+height: auto;
+border-radius: 15px;
+}
+
+.payment-img-2 {
+width: 100%;
+height: auto;
+border-radius: 15px;
+}
+
+.payment-img-3 {
+width: 40%;
+height: auto;
+border-radius: 10px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
 
 
 /* Info blokk  */
