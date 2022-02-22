@@ -175,11 +175,8 @@ h3 {
 .front-image {
   width: 100%;
   height: auto;
-  opacity: 0.9;
   padding-top: 3%;
 }
-
-
 
 .nav-link {
   font-size: 1.2rem;
@@ -260,14 +257,6 @@ height: auto;
 border-radius: 15px;
 }
 
-.payment-img-3 {
-width: 40%;
-height: auto;
-border-radius: 10px;
-margin-top: 20px;
-margin-bottom: 10px;
-}
-
 
 /* Info blokk  */
 
@@ -304,13 +293,13 @@ width: 100%;
 filter: grayscale(90%);
 border-radius: 25px;
 height: auto;
-width: 100%;
+width: 90%;
 
 }
 
 .szechenyi:hover{
 filter: grayscale(0%);
-width: 110%;
+width: 100%;
 }
 
 
