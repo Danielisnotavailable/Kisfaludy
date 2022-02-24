@@ -270,6 +270,8 @@ height: auto;
 
 .facebook-page{
 padding: 5% 2%;
+display: flex;
+  justify-content: center;
 }
 
 /* Mandatory blokk  */
@@ -312,13 +314,13 @@ width: 100%;
 .balaton-img {
   filter: grayscale(90%);
   height: auto;
-  width: 100%;
+  width: 90%;
 }
 
 .balaton-img:hover {
 filter: grayscale(0%);
 height: auto;
-width: 110%;
+width: 100%;
 }
 
 
@@ -551,6 +553,6 @@ text-align: left;
  }
 
 .front-image {
-  padding-top: 7%;
+  padding-top: 8%;
 }
   }
