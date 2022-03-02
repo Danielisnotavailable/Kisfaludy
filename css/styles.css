@@ -261,17 +261,15 @@ border-radius: 15px;
 /* Info blokk  */
 
 .info-box{
-margin: 5px;
-width: 320px;
+margin: 4px;
+/* width: 325px; */
 height: auto;
 }
 
 /* Facebook blokk */
 
 .facebook-page{
-padding: 5% 2%;
-display: flex;
-  justify-content: center;
+padding:5% 2%;
 }
 
 /* Mandatory blokk  */
