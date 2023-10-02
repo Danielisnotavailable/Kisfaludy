@@ -86,6 +86,17 @@ h3 {
   text-align:center;
 }
 
+.button3{
+  background-color: white;
+  border: solid 1px;
+  border-color: #116530;
+  color: #0B4619;
+  border-radius: 17px;
+  height: 40px;
+  width: 160px;
+  text-align:center;
+}
+
 .button1:hover{
   background-color: #0B4619;
 }
@@ -96,7 +107,11 @@ h3 {
   color: white;
 }
 
-
+.button3:hover{
+  background-color: grey;
+  border-color: grey;
+  color: white;
+}
 
 
 /*Section styles*/
@@ -119,6 +134,14 @@ h3 {
   border-color: #0B4619;
   /* padding-bottom: 3%; */
 }
+
+.white-section {
+  background-color: white;
+  color: #0B4619;
+  border-color: #0B4619;
+  /* padding-bottom: 3%; */
+}
+
 
 /* Borders */
 
@@ -157,8 +180,8 @@ h3 {
 }
 
 .background-img-3 {
-  opacity: 0.2;
-    position: absolute;
+  opacity: 0.8;
+    /*position: absolute;*/
     width: 100%;
     height: auto;
 }
@@ -338,7 +361,6 @@ width: 100%;
 .etlap-body-2{
   position: relative;
   height: 50px;
-
 }
 .etlap-btn{
   text-align: center;
@@ -477,6 +499,100 @@ margin-bottom: 30px;
   padding-left: 10px;
     padding-right: 5px;
 }
+
+/* Wedding section */
+
+.wedding-pics{
+  width: 100%;
+  height: auto;
+}
+
+.wedding-icon{
+width: 50%;
+height: auto;
+border-radius: 25px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wedding-title{
+text-align: center;
+}
+
+.wedding-body{
+  background-color: white;
+margin: 2px;
+padding-left: 20px;
+padding-right: 20px;
+  border: solid 1px;
+  border-radius: 25px;
+  font-size: 14px;
+/*  height: 600px;*/
+
+
+}
+.wedding-body-grey{
+  background-color: #E8E8CC;
+  margin: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid 1px;
+  border-radius: 25px;
+  font-size: 14px;
+
+
+}
+
+.wedding-body-2{
+  position: relative;
+  height: 50px;
+}
+
+.wedding-btn{
+  text-align: center;
+  margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+  }
+
+  .wbutton1{
+    background-color: #E8E8CC;
+    border: solid 1px;
+    border-color: #116530;
+    color: #0B4619;
+    border-radius: 17px;
+    height: 40px;
+    width: 120px;
+    text-align:center;
+  }
+
+  .wbutton2{
+    background-color: white;
+    border: solid 1px;
+    border-color: #116530;
+    color: #0B4619;
+    border-radius: 17px;
+    height: 40px;
+    width: 120px;
+    text-align:center;
+  }
+
+
+  .wbutton1:hover{
+    background-color: grey;
+    border-color: grey;
+    color: white;
+  }
+
+  .wbutton2:hover{
+    background-color: grey;
+    border-color: grey;
+    color: white;
+  }
 
 
 /* Galeria section */
