@@ -299,13 +299,16 @@ padding:5% 2%;
 
 .mandatory{
   padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .turisztika{
 filter: grayscale(90%);
-border-radius: 25px;
+border-radius: 10px;
 height: auto;
 width: 90%;
+padding-top: 5%;
+
 }
 .turisztika:hover{
 filter: grayscale(0%);
